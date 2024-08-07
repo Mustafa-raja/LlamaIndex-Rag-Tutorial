@@ -6,7 +6,6 @@ from llama_index.core import Settings
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 
 
-# os.environ["GROQ_API_KEY"] = "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"
 # from llama_index.llms.groq import Groq
 print("loading llm")
 llm = Ollama(model="llama3.1:8b", request_timeout=10000.0)
